@@ -11,7 +11,7 @@
 1. Floating the HTML elements using Flexbox and Grid system
 2. Implementing basic animations as shown in the refernce website. (hover effect,
 active link styles, typing effect, transitions,transformation) [here](https://preview.themeforest.net/item/maido-multipurpose-ghost-blog-theme/full_screen_preview/24837109?_ga=2.259990478.570486835.1654146705-2133876429.1654146705/)
-3. code deployed in Netlify [here](https://timely-seahorse-46b441.netlify.app/) 
+3. code deployed in Netlify [here](https://heartfelt-yeot-9dbe63.netlify.app/) 
 4. Using SASS for styling
 5. Made use of partials,variables, mixin, extend, Nesting.
 
@@ -96,6 +96,6 @@ Go to parent repo and make a pull request.
 ```
 
  ✨Magic ✨
-Project1 is deployed and can be checked [here](https://timely-seahorse-46b441.netlify.app/) 
+Project1 is deployed and can be checked [here](https://heartfelt-yeot-9dbe63.netlify.app/) 
 
 ![alt text](https://github.com/smitha-2020/fs13-CSS-SASS/blob/main/snapshot.png)
