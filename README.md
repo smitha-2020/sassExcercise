@@ -1,20 +1,98 @@
 # CSS/SASS , Grid , FlexBox Assignment
 
-Refer to this [link](https://preview.themeforest.net/item/maido-multipurpose-ghost-blog-theme/full_screen_preview/24837109?_ga=2.259990478.570486835.1654146705-2133876429.1654146705)(see 'Dark version') and create a similar webpage
+# Introduction
+###### Project to display  CSS/SASS , Grid , FlexBox  skills.
 
-## Requirements (max 4)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+##### Table of Content
 
 1. Floating the HTML elements using Flexbox and Grid system
 2. Implementing basic animations as shown in the webpage (hover effect,
-active link styles, typing effect). You can modify the outlook of the effects
-3. Implement you codes, using the platform of your choice (For example, Github Pages), then rewrite README file.
+active link styles, typing effect, transitions,transformation).
+3. code deployed in Netlify [here](https://timely-seahorse-46b441.netlify.app/) 
+4. Using SASS for styling
+5. Made use of partials,variables, mixin, extend, Nesting.
 
-This assignment only requires 1 static page. No JavaScript needed.
-Font family and text content can be modified as your preferences.
-You can ignore the small buttons/tags/lables in each card. Only
-texts with some styles are enough.
+###### Technology skills used:
+- HTML5
+- CSS3
+- GIT
+- WAI-ARIA
+- SASS/SCSS
 
-## Bonus points (max 1)
+##### Project structure
 
-1. Using SASS (either .sass or .scss) for styling
-2. Make use of variables, mixin, extend
+C:.
+│  
+│
+└───src
+    │   index.html
+    │
+    ├───css
+    │       main.css
+    │       main.css.map
+    │
+    ├───img
+    │       photo-1487015307662-6ce6210680f1.jpg
+    │       photo-1496917756835-20cb06e75b4e.jpg
+    │       photo-1524758631624-e2822e304c36.jpg
+    │       photo-1528441397448-a44d50563cf8.jpg
+    │       photo-1543248939-ff40856f65d4.jpg
+    │       photo-1544457070-4cd773b4d71e.jpg
+    │       photo-1551216223-37c8d1dbec5c.jpg
+    │       photo-1558697698-9300a84a6a99.jpg
+    │       photo-1562185022-c0a7889d7fbb.jpg
+    │       photo-1562664377-709f2c337eb2.jpg
+    │       photo-1566764581662-6cd06d381aef.jpg
+    │
+    └───sass
+            main.scss
+            _mixin.scss
+            _variables.scss
+    │gitignore
+    │  package-lock.json
+    │   package.json
+    │   README.md
+    │   snapshot.png
+
+#### Getting Started
+
+```sh
+Fork the parent repo
+```
+```sh
+clone the Repo: git clone gitLink
+```
+```sh
+Add parent repo to git remote
+```
+```sh
+Update forked repo from its parent
+```
+```sh
+Fetch the update from forked repo to local repo:git pull
+```
+```sh
+Switch to main branch
+```
+```sh
+Add contents
+```
+```sh
+git add .
+```
+```sh
+Commit : git commit -m "comments"
+```
+```sh
+git push remoterepo
+```
+```sh
+Go to parent repo and make a pull request.
+```
+
+ ✨Magic ✨
+Project1 is deployed and can be checked [here](https://timely-seahorse-46b441.netlify.app/) 
+
+![alt text](https://github.com/smitha-2020/fs13-basic-html/blob/main/top1.jpg)

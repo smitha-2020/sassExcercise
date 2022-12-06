@@ -1,0 +1,56 @@
+@import './variables';
+
+@mixin flex-prop-row{
+    display:flex;
+    flex-flow:row wrap;
+}
+@mixin flex-prop-row-align{
+    display:flex;
+    flex-flow:row wrap;
+    justify-content: center;
+    align-items: center;
+}
+@mixin flex-prop-column{
+    display:flex;
+    flex-flow:column wrap;
+}
+@mixin flex-prop-column-reverse{
+    display:flex;
+    flex-flow:column-reverse wrap;
+}
+@mixin flex-prop-column-align{
+    display:flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+@mixin radius{
+    border-radius: $radius;
+}
+@mixin middle-section__article{
+    width:100%;
+    height:100%;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all .5s;
+}
+@mixin last-section-rows{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow:hidden;
+}
+@mixin scale{
+    -ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+@mixin box-content-font($color,$size){
+    margin:20px 0 0 0;
+    color:$color;
+    font-size:$size;  
+}
+@mixin rotatex{ transform:rotateX(360deg);}
+@mixin rotatey{ transform:rotateY(360deg);}
