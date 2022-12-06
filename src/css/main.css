@@ -19,8 +19,8 @@ hr {
 }
 
 .global-svg {
-  width: 17px;
-  height: 17px;
+  width: 1.7em;
+  height: 1.7em;
   fill: #ebebeb;
 }
 
@@ -30,11 +30,11 @@ a {
 
 .global-pin {
   width: fit-content;
-  padding: 5px 12px 5px 12px;
+  padding: 0.5em 1.2em 0.5em 1.2em;
   height: auto;
   margin: 30px;
   font-weight: bolder;
-  font-size: 8px;
+  font-size: 0.5em;
   text-transform: uppercase;
   z-index: 1;
   color: rgb(128, 128, 128);
@@ -63,7 +63,7 @@ body {
   display: grid;
   grid-template-columns: 11vw 78vw 11vw;
   grid-template-rows: repeat(1, 1fr);
-  min-height: 200px;
+  min-height: 20em;
   height: auto;
 }
 
@@ -98,7 +98,7 @@ body {
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
-  column-gap: 10px;
+  column-gap: 12px;
 }
 .main-nav__menu > li {
   color: rgb(255, 255, 255);
@@ -145,7 +145,7 @@ section {
   display: grid;
   grid-template-columns: 600px 425px 425px;
   grid-template-rows: repeat(2, 1fr);
-  gap: 15px;
+  gap: 23px;
 }
 
 .top-section__common {
@@ -772,6 +772,18 @@ input:focus {
 
 .footer-copyright {
   text-align: center;
+}
+
+.pinned-text {
+  font-size: 1em;
+  color: #ebebeb;
+  line-height: 2;
+  letter-spacing: 1.5px;
+  transform: translate(-50%, -50%) rotate(-90deg);
+  position: fixed;
+  font-weight: 900;
+  top: 50%;
+  left: 3em;
 }
 
 /*# sourceMappingURL=main.css.map */

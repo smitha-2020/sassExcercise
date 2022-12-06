@@ -24,8 +24,13 @@ active link styles, typing effect, transitions,transformation) [here](https://pr
 
 ##### Project structure
 
+```sh
 C:.
-│  
+│   .gitignore
+│   package-lock.json
+│   package.json
+│   README.md
+│   snapshot.png
 │
 └───src
     │   index.html
@@ -51,11 +56,8 @@ C:.
             main.scss
             _mixin.scss
             _variables.scss
-    │gitignore
-    │  package-lock.json
-    │   package.json
-    │   README.md
-    │   snapshot.png
+```
+
 
 #### Getting Started
 
