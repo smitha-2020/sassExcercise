@@ -95,4 +95,4 @@ Go to parent repo and make a pull request.
  ✨Magic ✨
 Project1 is deployed and can be checked [here](https://timely-seahorse-46b441.netlify.app/) 
 
-![alt text](https://github.com/smitha-2020/fs13-basic-html/blob/main/top1.jpg)
+![alt text](https://github.com/smitha-2020/fs13-CSS-SASS/blob/main/snapshot.png)
