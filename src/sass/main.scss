@@ -560,6 +560,7 @@ section > article{
     margin: 0 auto; /* Gives that scrolling effect as the typing happens */
     letter-spacing: .15em; /* Adjust as needed */
     animation: typing 5s 4s steps(40, end) infinite;
+    max-width:370px;
   }
   @keyframes typing {
     from { width: 0 }
